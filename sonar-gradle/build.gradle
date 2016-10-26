@@ -9,6 +9,8 @@ sonarqube {
     properties {
         property "sonar.projectName", "Java :: Simple Project :: SonarQube Scanner for Gradle"
         property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+        property "sonar.projectVersion", "1.0.0"
+        property "sonar.sources","src/main/java/"
         property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/test.exec"
     }
 }
