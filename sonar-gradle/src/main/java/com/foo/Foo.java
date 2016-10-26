@@ -6,9 +6,12 @@ public class Foo {
 		// TODO Auto-generated method stub
 
 	}
-	
-	public String someLibraryMethod(){
-		return "test";
+
+	public void coveredByUnitTest() {
+		System.out.println("Hello, world.");
 	}
 
+	public void notCoveredByUnitTest() {
+		System.out.println("Hello, world.");
+	}
 }
