@@ -10,6 +10,7 @@ public class Foo {
 	public void coveredByUnitTest() {
 		System.out.println("Hello, world.1");
 		System.out.println("Hello, world.2");
+		System.out.println("Hello,1");
 	}
 
 	public void notCoveredByUnitTest() {
