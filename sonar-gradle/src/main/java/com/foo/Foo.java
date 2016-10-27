@@ -11,6 +11,8 @@ public class Foo {
 		System.out.println("Hello, world.1");
 		System.out.println("Hello, world.2");
 		System.out.println("Hello, world.3");
+		System.out.println("Hello, world.4");
+		
 	}
 
 	public void notCoveredByUnitTest() {
